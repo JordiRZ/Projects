@@ -1,0 +1,1 @@
+curl  -X DELETE -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjMwYjJlNDhhNTkzMzZlZDliZGRhNDMiLCJpYXQiOjE3MTQ0OTUxMzMsImV4cCI6MTcxNDc5NTEzM30.KCSkULmm74sSenxEdNwSiLENWp9QdWA8tvjtn8Ioggw" -H "Content-Type: application/json" -d '{ "surgeryId":"6631123670fb34f024123646"}' http://localhost:8080/surgeries -v
